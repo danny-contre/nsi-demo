@@ -20,5 +20,6 @@ public class DemoApplication {
 		List<String> texts = new ArrayList<>();
         texts.add("Hello World :)!");
 		logger.log(Level.INFO, () -> String.valueOf(texts));
+		System.out.println("Hello NSI");
 	}
 }
